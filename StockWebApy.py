@@ -6,7 +6,7 @@ from PIL import Image
 
 st.write("""
 # Stock Market Web Application
-**Visually** show data on a Stock! Date range from Apr 9, 2020 - Jan 28, 2021
+**Visually** show data on a Stock! Date range from Apr 9, 2020 - Apr 09, 2021
 """)
 
 image = Image.open("F:/.Programing/wallstreat.jpg")
