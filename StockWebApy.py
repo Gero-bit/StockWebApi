@@ -15,8 +15,6 @@ st.image(image, use_column_width=True)
 st.sidebar.header('User Input')
 
 # Create a funtion to get the users input
-
-
 def get_input():
     start_date = st.sidebar.text_input("Start Date", "2007-08-10")
     end_date = st.sidebar.text_input("End Date", "2021-04-09")
@@ -24,8 +22,6 @@ def get_input():
     return start_date, end_date, stock_symbol
 
 # Create a funtion to get the company name
-
-
 def get_company_name(symbol):
     if symbol == 'AMZN':
         return 'Amazon'
@@ -37,8 +33,6 @@ def get_company_name(symbol):
         'None'
 
 # Create a Funtion to get the proper company data and the proper time frame from the user start date to ther users end date
-
-
 def get_data(symbol, start, end):
 
     # Load the data
